@@ -3,7 +3,8 @@
 SELECT
     t.id as 'ID',
     g.name as 'Campus',
-    t.assignedto as 'Technician',
+    t.assignedto as 'Client',
+    t.contact as 'Technician',
     t.subject as 'Issue',
     c.name as 'Category',
     DATE_FORMAT(t.createddate, "%Y-%m-%d") as 'Opened On:'
