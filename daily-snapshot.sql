@@ -6,6 +6,7 @@ SELECT
     t.assignedto as 'Client',
     t.contact as 'Technician',
     t.subject as 'Issue',
+    t.note as 'Issue Detail',
     c.name as 'Category',
     DATE_FORMAT(t.createddate, "%Y-%m-%d") as 'Opened On:'
 
