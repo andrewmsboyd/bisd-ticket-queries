@@ -15,5 +15,5 @@ SELECT
 
         FROM ticket t
 
-        WHERE t.createddate >= "2018-07-01" AND t.createddate <= "2019-06-30"
+        WHERE t.createddate >= "2017-07-01" AND t.createddate <= "2019-06-30"
     ) t
