@@ -17,11 +17,3 @@ SELECT
 
         WHERE t.createddate >= "2018-07-01" AND t.createddate <= "2019-06-30"
     ) t
-    
- /* Save the results to a file  
-INTO OUTFILE '/Users/aboyd/Projects/ticket-word-cloud/word-cloud.csv'
-FIELDS ENCLOSED BY '"' 
-TERMINATED BY ';' 
-ESCAPED BY '"' 
-LINES TERMINATED BY '\r\n'
-*/  
